@@ -2,7 +2,7 @@
 
 Homebrew is a package manager for macOS. If you don't have it installed, follow these steps:
 
-*   **Open Terminal:** The defaukt terminal, or iTerm2 are fine.
+*   **Open Terminal:** The default terminal, or iTerm2 are fine.
 *   **Paste and Run the Installation Command:** Copy and paste this command into your terminal window, then press Enter:
 
     ```bash
