@@ -10,7 +10,7 @@ Let's git crackin!
 
 ```bash
 git config –-global user.name "Glyn Mooney"
-git config –-global user.email "glyn.mooney@capgemini.com"
+git config –-global user.email 749058+skidoosh@users.noreply.github.com"
 git config --global init.defaultBranch main
 ```
 **Polite notice:** By default, git is configured to use `master` as the default branch name. This, though the default for the tool, hasn't been the norm for some years now.
