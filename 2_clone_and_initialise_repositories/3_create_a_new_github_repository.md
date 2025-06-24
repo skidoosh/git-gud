@@ -15,6 +15,9 @@ Now you have a local repository, created in excersize 2, we can now create a new
     *   **Choose a license:** Select **None**
     *   Once you're satisfied with the details, scroll down to the bottom of the page and click the green "Create repository" button.
 
+3. **Repeat:**
+    *  Now repeat the above process to create two more repositories. The repositories should be named `my_second_repository` and `my_third_repository`
+
 **That's it! You have now created a new, empty, private repository on GitHub.**
 
 **Important Notes:**
