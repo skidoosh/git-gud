@@ -1,0 +1,17 @@
+books:
+- title: The Hobbit
+  author: J. R. R. Tolken
+  isbn: 9780007458424
+  number_of_pages: 368
+  year_published: 2012
+  first_edition: false
+  related:
+  - title: The Lord of the Rings
+- title: The Lord of the Rings 
+  author: J. R. R. Tolken
+  isbn: 0261103253
+  number_of_pages: 01178
+  year_published: 1995
+  first_edition: false
+  related:
+  - title: The Hobbit
