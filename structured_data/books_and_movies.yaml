@@ -1,0 +1,80 @@
+---
+books:
+- title: The Hobbit
+  author: J. R. R. Tolken
+  isbn: 9780007458424
+  number_of_pages: 368
+  year_published: 2012
+  first_edition: false
+  related:
+  - title: The Lord of the Rings
+  synopsis_ml: |
+    A well mannered Hobbit named Bilbo Baggins, embarks upon a journey 
+    to take back a kingdom, and a very important jewel ,with twelve dwarves, 
+    and a wizard named Gandalf the Grey. Halfway throughout the journey, 
+    Bilbo embarks upon a magic golden ring, which he stole, or earned 
+    from Gollum.
+  synopsis_sl: >
+    A well mannered Hobbit named Bilbo Baggins, embarks upon a journey 
+    to take back a kingdom, and a very important jewel ,with twelve dwarves, 
+    and a wizard named Gandalf the Grey. Halfway throughout the journey, 
+    Bilbo embarks upon a magic golden ring, which he stole, or earned 
+    from Gollum.
+- title: The Lord of the Rings 
+  author: J. R. R. Tolken
+  isbn: 0261103253
+  number_of_pages: 01178
+  year_published: 1995
+  first_edition: false
+  related:
+  - title: The Hobbit
+  synopsis_ml: |
+    The future of civilization rests in the fate of the One Ring, 
+    which has been lost for centuries. Powerful forces are unrelenting 
+    in their search for it. But fate has placed it in the hands of 
+    a young Hobbit named Frodo Baggins (Elijah Wood), who inherits 
+    the Ring and steps into legend. A daunting task lies ahead for 
+    Frodo when he becomes the Ringbearer - to destroy the One Ring 
+    in the fires of Mount Doom where it was forged.
+  synopsis_sl: >
+    The future of civilization rests in the fate of the One Ring, 
+    which has been lost for centuries. Powerful forces are unrelenting 
+    in their search for it. But fate has placed it in the hands of 
+    a young Hobbit named Frodo Baggins (Elijah Wood), who inherits 
+    the Ring and steps into legend. A daunting task lies ahead for 
+    Frodo when he becomes the Ringbearer - to destroy the One Ring 
+    in the fires of Mount Doom where it was forged.
+---
+movies:
+- title: "The Lord of The Rings: The Fellowship Of the Ring"
+  director: Peter Jackson
+  year: 2001
+- title: "The Lord of The Rings: The Two Towers"
+  director: Peter Jackson
+  year: 2002
+- title: "The lord of The Rings: The Reteun of the King"
+  director: Peter Jackson
+  year: 2003
+- title: "The Hobbit: An Unexpected Journey"
+  director: Peter Jackson
+  year: 2012
+- title: "The Hobbit: The Desolation of Smaug"
+  director: Peter Jackson
+  year: 2013
+- title: "The Hobbit: The Battle of the Five Armies"
+  director: Peter Jackson
+  year: 2014
+---
+pets:
+- Biggs
+- Smalls
+---
+cars: [BMW, Audi, MG, Mercedes-Benz]
+---
+document:
+  {
+    title: "Health & Safety in the Workplace",
+    number_of_pages: 12,
+    mandatory: true,
+    authors: [Glyn Mooney]
+  }
