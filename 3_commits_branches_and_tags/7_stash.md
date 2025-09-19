@@ -31,7 +31,7 @@ Let's Git Started!
     To apply the most recent stash (stash@{0}) to your working directory:
 
     ```bash
-    git apply
+    git stash apply
     ```
     
     This will attempt to merge the stashed changes into your current working directory. If there are conflicts (changes that overlap with existing files), you'll need to resolve them manually.
@@ -39,7 +39,7 @@ Let's Git Started!
     To apply a specific stash (e.g., stash@{1}):
 
     ```bash
-    git apply stash@{1}
+    git stash apply stash@{1}
     ```
 
 4.  **Popping Stashed Changes (Applying and Removing):**
@@ -47,13 +47,13 @@ Let's Git Started!
     git apply leaves the stash in your list. If you want to apply the changes and remove the stash from the list, use git pop:
 
     ```bash
-    git pop
+    git stash pop
     ```
     
     Or to apply a specific stash and remove it:
 
     ```bash
-    git pop stash@{1}
+    git stash pop stash@{1}
     ```
 
     git pop also attempts to merge the stashed changes into your current working directory. If there are conflicts, again you'll need to resolve them manually.
