@@ -3,11 +3,10 @@ In order to collaborate with your team, or simply make your code accessible to a
 **Understanding Remote Origins**
 
 * **What is a remote?** In Git, a "remote" is essentially a pointer to another repository.  It's how you connect your local Git repository to an online (or network accessible) repository.
-* **What is `origin`?**  `origin` is a *convention* like calling your primary branch `main` or `master`. It's the most common name given to the primary remote repository you're working with.  You *could* name it something else (like `upstream` or `myremote`), but using `origin` is highly recommended for clarity and compatibility with tools.
+* **What is `origin`?**  `origin` is the default value for remotes, indicating the `origin` of the cloned repository.
 * **Why set the remote origin?**  Setting the remote origin allows you to:
-    * **Push:** Send your local commits to the online repository.
-    * **Pull:** Download changes from the online repository into your local copy.
-    * **Clone:**  If you're starting a new project, cloning automatically sets the origin.
+    * **Push:** Send your local commits to the upstream repository.
+    * **Pull:** Download changes from the remote repository into your local copy.
 
 **Setting the Remote Origin**
 
@@ -23,17 +22,17 @@ A common scenario. When you've begun to create something, you may decide to shar
    cd ~/projects/my_first_repository
    ```
 
-2. **Add the remote origin:**  Use the `git remote add` command:
+2. **Add the remote origin:** Use the `git remote add` command:
 
    ```bash
    git remote add origin git@github.com:yourusername/my_first_repository.git
    ```
 
-   * `git remote add`:  This is the command to add a new remote.
+   * `git remote add`: This is the command to add a new remote.
    * `origin`: This is the name you're giving to the remote (as explained above).
    * `git@github.com:yourusername/my_first_repository.git`: This is the URL of your GitHub repository.  **Remember to change `yourusername` to your GitHub username.**
 
-3. **Verify the remote:**  Confirm that the remote has been added correctly:
+3. **Verify the remote:** Confirm that the remote has been added correctly:
 
    ```bash
    git remote -v
@@ -51,7 +50,7 @@ A common scenario. When you've begun to create something, you may decide to shar
 **Scenario 2: You have an existing local Git repository *with* a remote, but you want to change it.**
 
 * **Why set a new remote origin?**  Setting the remote origin allows you to:
-    * **Migration:** You're moving to a new Git provider e.g. GitHub to BitBucket
+    * **Migration:** You're moving to a new Git provider e.g. GitHub to Gitlab
     * **Disaster Recovery:** Your provider has been wiped off the face of the earth, and you need to migrate!
     * **Renaming:** You're renaming an existing project, and you want the repository to be consistent with the new name.
     
@@ -68,7 +67,7 @@ A common scenario. When you've begun to create something, you may decide to shar
    git remote remove origin
    ```
 
-3. **Add the new remote:**  Follow step 2 from Scenario 1:
+3. **Add the new remote:** 
 
    ```bash
    git remote add origin git@github.com:yourusername/my_second_repository.git
@@ -76,9 +75,14 @@ A common scenario. When you've begun to create something, you may decide to shar
 
 4. **Verify:** Use `git remote -v` to confirm the change.
 
+   ```
+   origin  git@github.com:yourusername/my_first_repository.git (fetch)
+   origin  git@github.com:yourusername/my_first_repository.git (push)
+   ```
+
 **Scenario 3: You're starting a new project and want to connect it directly to GitHub.**
 
-This is the easiest scenario.  You'll use `git clone` with the correct repository URL.
+This is the easiest scenario. You'll use `git clone` with the correct repository URL.
 
 1. **Open your terminal/command prompt.**
 
@@ -88,7 +92,8 @@ This is the easiest scenario.  You'll use `git clone` with the correct repositor
    git clone git@github.com:yourusername/my_third_repository.git
    ```
 
-   This will download the entire repository to your local machine and automatically set `origin` to point to `git@github.com:yourusername/my_third_repository.git`.
+   This will download the entire repository to your local machine and automatically set `origin` to point to 
+   `git@github.com:yourusername/my_third_repository.git`.
 
 **After Setting the Remote Origin:**
 

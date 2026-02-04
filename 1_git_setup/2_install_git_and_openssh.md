@@ -5,7 +5,7 @@ Homebrew is a package manager for macOS. If you don't have it installed, follow 
 *   **Open Terminal:** The default terminal, or iTerm2 are fine.
 *   **Paste and Run the Installation Command:** Copy and paste this command into your terminal window, then press Enter:
 
-    ```bash
+    ```shell
     /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
     ```
 
@@ -18,9 +18,9 @@ Homebrew is a package manager for macOS. If you don't have it installed, follow 
 
 Once Homebrew is installed and configured, install Git using the following command and press enter:
 
-    ```bash
-    brew install git
-    ```
+```bash
+brew install git
+```
 
 Homebrew will now download and install Git and any necessary dependencies.  
 
@@ -28,9 +28,9 @@ Homebrew will now download and install Git and any necessary dependencies.
 
 Now we have Git installed, we need to install OpenSSH. We use OpenSSH to authenticate to remote servers, create key pairs and signing commits. To install OpenSSH use the following commend and hit enter:
 
-    ```bash
-    brew install openssh
-    ```
+```bash
+brew install openssh
+```
 
 **Notice:** OpenSSH may have already been installed with Git, or may already be installed as part of macOS. Please install the package via Homebrew anyway so we're all using the same version.
 

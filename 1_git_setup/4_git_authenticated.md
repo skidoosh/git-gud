@@ -20,7 +20,7 @@ Git authenticates using ssh public key authentication. If you haven’t already 
 **Step 2: Install your new public key into GitGub**
 
 * While logged into GitHub, visit the following [address](https://github.com/settings/ssh/new).
-*   You will be presented with a form, with the title "Add new SSH Key" with the following fields:
+* You will be presented with a form, with the title "Add new SSH Key" with the following fields:
     *   **Title:** Enter a sensible, and sensical name for the key
     *   **Key type:** Select "Authentication Key"
     *   **Key** Copy the output of the `cat` command from above. 

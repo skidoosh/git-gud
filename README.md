@@ -1,6 +1,6 @@
 ## Welcome to The best Git introduction in the universe!
 
-Over the next, day and a bit I will be guiding you through:
+Over the next day - and a bit I will be guiding you through:
 
 * Clone and initialize repositories
 * Stage and snapshot changes
